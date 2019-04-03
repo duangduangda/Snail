@@ -3,6 +3,7 @@ package org.dean.snail.core
 import math._
 import io.StdIn
 import util.control.Breaks._
+import io.Source
 
 object LogicalControlHandler {
 
@@ -35,6 +36,8 @@ object LogicalControlHandler {
 
   def lazy_value: Unit = {
     println("start lazy value>>>>>")
+    lazy val words = Source.fromFile("/usr/dean")
+    println(words)
     println("end of lazy value>>>>")
   }
 
