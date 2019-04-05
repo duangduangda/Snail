@@ -1,8 +1,6 @@
 package org.dean.snail.core
 import java.io.FileNotFoundException
 
-import com.sun.org.apache.xml.internal.utils.URI.MalformedURIException
-
 import scala.io.Source
 
 /**

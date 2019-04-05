@@ -1,7 +1,5 @@
 package org.dean.snail.core
 
-import org.dean.snail.core.Point
-
 /**
  * @description:
  * @author: dean 
