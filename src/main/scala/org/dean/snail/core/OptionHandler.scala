@@ -31,6 +31,9 @@ object OptionHandler {
     println(b.getOrElse(10))
     println(a.map(f => f * f).getOrElse(9999))
     println(b.map(f => f * f).getOrElse(9999))
+    val sites = Map("runoob" -> "www.runoob.com", "google" -> "www.google.com")
+    println(sites.getOrElse("runoob","no website"))
+    println(sites.getOrElse("runfast","no website"))
   }
 
   def main(args: Array[String]): Unit = {
