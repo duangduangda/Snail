@@ -1,9 +1,9 @@
 package org.dean.snail.core
 
 import math._
-import io.StdIn
+import scala.io.StdIn
 import util.control.Breaks._
-import io.Source
+import scala.io.Source
 
 object LogicalControlHandler {
 

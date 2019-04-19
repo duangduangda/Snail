@@ -1,8 +1,7 @@
 package org.dean.snail.core
 
 import java.io.FileNotFoundException
-
-import io.Source._
+import scala.io.Source._
 
 /**
   * @description: 懒值处理
